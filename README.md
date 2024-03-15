@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Deep Fake Shield
 
 
@@ -13,3 +14,6 @@
 - [@Baranidharan S](https://github.com/thespectacular314)
 - [@Roshan T](https://github.com/Twinn-github09)
 
+=======
+# Team-Nooglers
+>>>>>>> 96d6595a88bf770d7f4a99231bd51ea628489619
