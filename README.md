@@ -21,6 +21,9 @@ This project aims to detect deepfake videos using advanced deep learning techniq
 - OpenCV
 - PIL
 
+## Contributing
+  Contributions are welcome! Feel free to submit bug reports, feature requests, or pull requests to help improve this project. 
+
 ## Authors
 
 - [@Hari Heman](https://github.com/MAD-MAN-HEMAN)
