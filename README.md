@@ -10,19 +10,47 @@ This project aims to detect deepfake videos using advanced deep learning techniq
 - Utilizes the Celeb-DF-v2 dataset, comprising a 6000+ diverse collection of real and synthesized videos featuring celebrity personas.
 - Implements the ResNeXt-50 model architecture for video classification.
 - Provides functionality for preprocessing videos, extracting frames, and applying data augmentation techniques.
-- Offers inference capabilities for detecting deepfake videos in real-time.
+- Offers inference capabilities for detecting deepfake videos in real time.
 - Includes example scripts for training the model and evaluating its performance.
 
 ## Requirements
 - Python 3.x
 - PyTorch
-- torchvision
-- timm
+- torch-vision
+- Timm
 - OpenCV
 - PIL
 
 ## Contributing
   Contributions are welcome! Feel free to submit bug reports, feature requests, or pull requests to help improve this project. 
+
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://github.com/SaiNivedh26/Team-Nooglers
+```
+
+Go to the project directory
+
+```bash
+  cd Team-Nooglers
+```
+
+Install dependencies
+
+```bash
+  npm install
+```
+
+Start the server
+
+```bash
+  npm run start
+```
+
+
 
 ## Authors
 
@@ -32,7 +60,7 @@ This project aims to detect deepfake videos using advanced deep learning techniq
 - [@Roshan T](https://github.com/Twinn-github09)
 
 ## Demo
-For the demonstration purpose we're going to Import an fake video and check whether our application detects it
+For the demonstration purpose, we're going to Import a fake video and check whether our application detects it
 
 https://github.com/SaiNivedh26/Team-Nooglers/assets/142657686/552961d7-8e3e-4f0c-8da7-3b2a38d40463
 
