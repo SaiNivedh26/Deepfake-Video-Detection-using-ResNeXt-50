@@ -34,11 +34,9 @@ This project aims to detect deepfake videos using advanced deep learning techniq
 ## Demo
 For the demonstration purpose we're going to Import an fake video and check whether our application detects it
 
+https://github.com/SaiNivedh26/Team-Nooglers/assets/142657686/552961d7-8e3e-4f0c-8da7-3b2a38d40463
+
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
-
-
-
-https://github.com/SaiNivedh26/Team-Nooglers/assets/142657686/552961d7-8e3e-4f0c-8da7-3b2a38d40463
 
