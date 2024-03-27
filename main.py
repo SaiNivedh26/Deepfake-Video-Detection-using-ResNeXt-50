@@ -118,7 +118,6 @@ def classify_video(video):
     if video is None:
         return "Please upload a video file."
     
-    video_path = 'video directory of the pre existing example video'  # Directly use the video string as the video file path
     predictions = classify_frames(video_path)
     print("Predictions:", predictions)  # Debugging statement
     final_result = final_classification(predictions)
@@ -133,7 +132,7 @@ iface = gr.Interface(
     outputs=gr.Label(label="Result"),
     title=title,
     description=description,
-    examples=[["G:\\newvid.mp4"]]
+    examples=[["G:\\newvid.mp4"]] #example video to test the application
 )
 
 iface.launch()
