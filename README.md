@@ -73,18 +73,13 @@ Start the server
 ```
 # How We Built It 🛠️👷‍♂️
 
- -  Developed frontend using React for a modular and reusable UI. 💻🔧
- -  Implemented backend with Flask for RESTful APIs and data processing. 🐍🚀
- -  Integrated various machine learning models for outfit recommendation, virtual try-on, and fashion chatbot functionalities. 🤖⚙️
- -  Implemented virtual try-on feature with complex image processing and machine learning techniques. 📷🔄
- -  Integrated a fashion chatbot leveraging natural language processing (NLP) capabilities. 💬🤖
-
+- Developed a custom data pipeline for loading and preprocessing the Celeb-DF-v2 dataset. 📂
+- Implemented the ResNeXt-50 model architecture using PyTorch for video classification. 🔥
+- Utilized transfer learning techniques by fine-tuning the model on the Celeb-DF-v2 dataset. 🏋️‍♀️
+- Leveraged Intel Developer Cloud's powerful computing resources and optimized libraries (e.g., oneDNN) to accelerate model training and inference. ⚡
 # References For Datasets 📊📚
 
- - Virtual-Try-On : [VITON 🤖👗](https://www.kaggle.com/datasets/marquis03/hr-viton)
- - Chat-Bot : [PDF 📄💬](https://github.com/dhaan-ish/intelOneApiHackathon/blob/main/Chat-Bot/Data/fashsion.pdf)
- - Outfit-Recommendation : [Kaggle 🛍️📸](https://www.kaggle.com/datasets/paramaggarwal/fashion-product-images-dataset)]
- - Human-Detection : [Roboflow 👤🔍](https://universe.roboflow.com/human-classification/human-qgzuc)
+- Celeb-DF-v2 dataset : [Drive 🔗] (https://www.google.com/url?q=https://drive.google.com/open?id%3D1iLx76wsbi9itnkxSqz9BVBl4ZvnbIazj&sa=D&source=editors&ust=1711031793764133&usg=AOvVaw176zn3G8Ep0EDWpMV-rWnQ)
 
 
 ## Authors
