@@ -7,8 +7,8 @@ This project aims to detect deepfake videos using advanced deep learning techniq
 
 ## Requirements
 -Python 3.x
--PyTorch
--torchvision
++PyTorch
+*torchvision
 -timm
 -OpenCV
 -PIL
