@@ -39,13 +39,22 @@ In summary, Intel Developer Cloud's advanced CPU and XPU technologies provided u
 still to do
 
 
-## Requirements
+## Necessary Libraries
+
+To run this project, you'll need the following libraries:
+
 - Python 3.x
 - PyTorch
-- torch-vision
-- Timm
+- torchvision
+- timm
 - OpenCV
 - PIL
+
+You can install the required dependencies using pip:
+
+```bash
+pip install -r requirements.txt
+
 
 ## Contributing
   Contributions are welcome! Feel free to submit bug reports, feature requests, or pull requests to help improve this project. 
