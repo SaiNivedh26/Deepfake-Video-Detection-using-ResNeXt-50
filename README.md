@@ -1,4 +1,4 @@
-#**Deepfake Video Detection using ResNeXt-50**
+# Deepfake Video Detection using ResNeXt-50
 # Deep Fake Shield
 
 
