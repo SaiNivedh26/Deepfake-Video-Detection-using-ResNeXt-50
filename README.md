@@ -7,7 +7,7 @@ This project aims to detect deepfake videos using advanced deep learning techniq
 
 ## Features
 
-- Utilizes the Celeb-DF-v2 dataset, comprising a diverse collection of real and synthesized videos featuring celebrity personas.
+- Utilizes the Celeb-DF-v2 dataset, comprising a 6000+ diverse collection of real and synthesized videos featuring celebrity personas.
 - Implements the ResNeXt-50 model architecture for video classification.
 - Provides functionality for preprocessing videos, extracting frames, and applying data augmentation techniques.
 - Offers inference capabilities for detecting deepfake videos in real-time.
