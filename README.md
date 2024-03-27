@@ -1,5 +1,5 @@
 # Deepfake Video Detection using ResNeXt-50
-<center><h2>Deep Fake Shield</h2></center>
+<center><h2>Project Title : Deep Fake Shield (DFS) </h2></center>
 
 ## Demo
 For the demonstration purpose, we're going to Import a fake video and check whether our application detects it
