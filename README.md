@@ -5,6 +5,14 @@
 ## Overview
 This project aims to detect deepfake videos using advanced deep learning techniques, specifically leveraging the ResNeXt-50 model architecture. Deepfake videos, which are highly realistic but fabricated using AI algorithms, pose a significant threat to the authenticity of visual media content. By developing a robust framework for classifying videos as real or fake, we contribute to the ongoing efforts to combat the proliferation of misinformation and preserve the integrity of digital media platforms.
 
+## Features
+
+- Utilizes the Celeb-DF-v2 dataset, comprising a diverse collection of real and synthesized videos featuring celebrity personas.
+- Implements the ResNeXt-50 model architecture for video classification.
+- Provides functionality for preprocessing videos, extracting frames, and applying data augmentation techniques.
+- Offers inference capabilities for detecting deepfake videos in real-time.
+- Includes example scripts for training the model and evaluating its performance.
+
 ## Requirements
 - Python 3.x
 + PyTorch
