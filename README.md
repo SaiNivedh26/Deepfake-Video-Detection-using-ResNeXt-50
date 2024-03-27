@@ -31,3 +31,10 @@ This project aims to detect deepfake videos using advanced deep learning techniq
 - [@Baranidharan S](https://github.com/thespectacular314)
 - [@Roshan T](https://github.com/Twinn-github09)
 
+## Demo
+For the demonstration purpose we're going to Import an fake video and check whether our application detects it
+
+
+
+https://github.com/SaiNivedh26/Team-Nooglers/assets/142657686/552961d7-8e3e-4f0c-8da7-3b2a38d40463
+
