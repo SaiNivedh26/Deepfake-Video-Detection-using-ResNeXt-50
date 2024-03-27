@@ -19,21 +19,9 @@ This project aims to detect deepfake videos using advanced deep learning techniq
 # Usage of Intel Developer Cloud 🌐💻
 
 
-Utilizing the resources provided by Intel Developer Cloud significantly expedited our AI model development and deployment processes. Specifically, we harnessed the power of Intel's CPU and XPU to accelerate two critical components of our project: Human Detection and Text-to-Outfit Generation. 💻⚡
+Leveraging the powerful resources provided by Intel Developer Cloud accelerated our development and deployment of the deepfake video detection model. We harnessed the computational capabilities of Intel's CPUs and XPUs to optimize critical components, such as video preprocessing, frame extraction, and model inference.
 
-1.  **Human Detection Model Training:** The Intel Developer Cloud's CPU and XPU capabilities, combined with the use of oneDNN, played a pivotal role in reducing the training time of our Human Detection model. By leveraging the high-performance computing infrastructure provided by Intel, we were able to train our model more efficiently, significantly cutting down the time required for model optimization and experimentation.🚀🔧 <br/> <br/> The integration of oneDNN, a high-performance deep learning library developed by Intel, contributed to this efficiency by optimizing the computational tasks involved in training. Notably, a single epoch now takes only 2 seconds, a substantial improvement compared to the 6 seconds it took in Colab, showcasing the remarkable speedup achieved through the use of Intel's hardware resources and optimized software stack. 🚀⚒️ <br/> <br/> Additionally, the optimized version of TensorFlow tailored for Intel architectures further played a crucial role in reducing the training time. This collaborative utilization of optimized TensorFlow and Intel's advanced computing infrastructure enabled us to achieve significant improvements in model training efficiency, ultimately accelerating our development process and enhancing the overall performance of our Human Detection model. 🏋️‍♂️🧑‍💻
-
-![Comparison Graph](images/Binary_Classifcation_Graph.png)
-
->Comparison between time took in Intel Developers Cloud using OneDNN and Google Colab
-    
-2.  **Text-to-Outfit Generation:** The Text-to-Outfit Generator component of our project involved complex computational tasks, particularly during outfit generation and rendering. Running these computations in Google Colab often resulted in long processing times due to resource limitations. However, by leveraging Intel Developer Cloud's CPU and XPU resources, we experienced a notable reduction in processing time. The parallel processing capabilities of Intel's infrastructure enabled us to generate outfit recommendations swiftly, enhancing the overall user experience. 🌟👗
-
-![Comparison Graph](images/textToImageComparison.png)
-
->Comparison between time took in Intel Developers Cloud using OneDNN and Google Colab
-    
-In summary, Intel Developer Cloud's advanced CPU and XPU technologies provided us with the computational power necessary to expedite model training and inference processes, ultimately accelerating our project development and deployment timelines. 🚀🕒
+By taking advantage of Intel's high-performance computing infrastructure and optimized software libraries (e.g., oneDNN, Intel Distribution of OpenVINO), we significantly reduced the time required for data preprocessing, model training, and inference. This allowed for faster experimentation, iterative improvements, and ultimately, a more efficient deployment of our deepfake detection solution.
 
 # Flow Diagram 🔄📊
 still to do
