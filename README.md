@@ -38,11 +38,6 @@ To run this project, you'll need the following libraries:
 - OpenCV
 - PIL
 
-You can install the required dependencies using pip:
-
-```bash
-pip install -r requirements.txt
-```
 ## Contributing
   Contributions are welcome! Feel free to submit bug reports, feature requests, or pull requests to help improve this project. 
 
