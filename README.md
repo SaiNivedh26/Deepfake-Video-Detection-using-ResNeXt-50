@@ -24,7 +24,8 @@ Leveraging the powerful resources provided by Intel Developer Cloud accelerated 
 By taking advantage of Intel's high-performance computing infrastructure and optimized software libraries (e.g., oneDNN, Intel Distribution of OpenVINO), we significantly reduced the time required for data preprocessing, model training, and inference. This allowed for faster experimentation, iterative improvements, and ultimately, a more efficient deployment of our deepfake detection solution.
 
 # Flow Diagram 🔄📊
-still to do
+
+![flow](https://github.com/SaiNivedh26/Team-Nooglers/assets/142657686/f92a8b99-ff6f-4e03-877b-151ea067c5c7)
 
 
 ## Necessary Libraries
