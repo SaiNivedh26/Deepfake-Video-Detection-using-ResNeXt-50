@@ -1,7 +1,7 @@
-# Main code
 import timm
 from PIL import Image
 import torch
+import onednn
 from torchvision import transforms
 import cv2
 import os
@@ -52,26 +52,33 @@ class CelebDFDataset(torch.utils.data.Dataset):
             img = self.transforms(img)
         return img, label
 
-
 # Set data paths
-data_dir = 'directory for your Celeb-DF-v2'
+data_dir = 'directory to celeb df dataset folder'
 
 # Load datasets
 train_dataset = CelebDFDataset(data_dir, transforms=train_transforms, mode='train')
 val_dataset = CelebDFDataset(data_dir, transforms=val_transforms, mode='val')
 
 # Create data loaders
-batch_size = 32
+batch_size = 64
 train_loader = torch.utils.data.DataLoader(train_dataset, batch_size=batch_size, shuffle=True)
 val_loader = torch.utils.data.DataLoader(val_dataset, batch_size=batch_size, shuffle=False)
 
 # Load the model
-device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+device = torch.device("cpu")  # Use CPU for oneDNN
 model = timm.create_model("resnext50_32x4d", pretrained=True)
 num_ftrs = model.fc.in_features
 model.fc = torch.nn.Linear(num_ftrs, 2)
-model = model.to(device)
+
+def set_model_eval(model):
+    for module in model.modules():
+        if hasattr(module, 'training'):
+            module.training = False
+
 model.eval()
+set_model_eval(model)
+model = onednn.to_onednn(model)  # Convert model to use oneDNN
+model = model.to(device)
 
 # Function to preprocess and classify frames
 def classify_frames(video_path):
@@ -88,6 +95,9 @@ def classify_frames(video_path):
         frame = Image.fromarray(frame)  # Convert to PIL Image
         frame = val_transforms(frame).unsqueeze(0)
         frames.append(frame)
+
+    if len(frames) == 0:
+        return predictions  # Return empty predictions if no frames were read
 
     frames = torch.cat(frames, dim=0).to(device)
     with torch.no_grad():
@@ -108,23 +118,17 @@ def final_classification(predictions, threshold=0.5):
     else:
         return "Real"
 
-# # Example usage
-# video_path = 'G:\\newvid.mp4'
-# predictions = classify_frames(video_path)
-# final_result = final_classification(predictions)
-# print(f"The video is classified as: {final_result}")
-
 def classify_video(video):
     if video is None:
         return "Please upload a video file."
     
-    predictions = classify_frames(video_path)
+    predictions = classify_frames(video)
     print("Predictions:", predictions)  # Debugging statement
     final_result = final_classification(predictions)
     return final_result
 
 title = "Deepfake Detector"
-description = "Made by Team Nooglers as a part of Intel AI hackathon"
+description = "Made by Team Nooglers as a part of Intel AI hackathon 😎"
 
 iface = gr.Interface(
     fn=classify_video,
@@ -132,7 +136,7 @@ iface = gr.Interface(
     outputs=gr.Label(label="Result"),
     title=title,
     description=description,
-    examples=[["G:\\newvid.mp4"]] #example video to test the application
+    examples=[["directory to example video"]]
 )
 
 iface.launch()
