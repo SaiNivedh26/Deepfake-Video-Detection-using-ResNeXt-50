@@ -150,17 +150,19 @@ Start the server
 - <h2>Celeb-DF-v2 dataset</h2> [Drive 🔗] (https://www.google.com/url?q=https://drive.google.com/open?id%3D1iLx76wsbi9itnkxSqz9BVBl4ZvnbIazj&sa=D&source=editors&ust=1711031793764133&usg=AOvVaw176zn3G8Ep0EDWpMV-rWnQ)
 
 # Model performance 🕝 ⚡
-<h2>This is the comparison of regular code and the same code utlized for an 20s , 1080 pixel Video. The Implementation of Intel® oneAPI Deep Neural Network Library accelerated the code by 2.8 - 3 times</h2>
+<h2>This is the comparison of regular code and the same code utlized OneDNN for an 1080 p Video with the duration of 20 seconds. The Implementation of Intel® oneAPI Deep Neural Network Library accelerated the performance by 2.8 - 3 times</h2>
 
 ![Time (seconds)](https://github.com/SaiNivedh26/Team-Nooglers/assets/142657686/f2a14d7a-f47a-42a8-8708-17015cb90060)
 
 
 ## Authors
 
-- [@Hari Heman](https://github.com/MAD-MAN-HEMAN)
 - [@Sai Nivedh V](https://github.com/SaiNivedh26)
 - [@Baranidharan S](https://github.com/thespectacular314)
 - [@Roshan T](https://github.com/Twinn-github09)
+- [@Hari Heman](https://github.com/MAD-MAN-HEMAN)
+
+
 
 ## 🛡️License
 
