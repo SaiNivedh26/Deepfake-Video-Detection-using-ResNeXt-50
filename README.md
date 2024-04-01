@@ -47,6 +47,70 @@ To run this project, you'll need the following libraries:
 - OpenCV
 - PIL
 
+## Installation procedure for OneDNN 📦⬇️
+Download oneDNN source code or clone the repository.
+
+```bash
+git clone https://github.com/oneapi-src/oneDNN.git
+```
+
+Build the Library
+>Ensure that all software dependencies are in place and have at least the minimal supported version.
+
+ > * CMAKE_INSTALL_PREFIX to control the library installation location
+ > * CMAKE_BUILD_TYPE to select between build type (Release, Debug, RelWithDebInfo).
+
+
+
+Linux/macOs
+> Generate makefile:
+```bash
+  mkdir -p build && cd build && cmake ..
+```
+> Build the library:
+```bash
+  make -j
+```
+> Build the doumentation:
+```bash
+ make doc
+```
+> Install the library,headers,and documentations:
+```bash
+  make install
+```
+
+Windows
+> Generate a Microsoft Visual Studio solution:
+```bash
+  mkdir build && cd build && cmake -G "Visual Studio 15 2017 Win64" ..
+```
+> For the solution to use the Intel C++ Compiler, select the corresponding toolchain using the cmake -T switch:
+```bash
+ cmake -G "Visual Studio 15 2017 Win64" -T "Intel C++ Compiler 19.0" ..
+```
+> Build the library:
+```bash
+ cmake --build .
+```
+> You can also use the msbuild command-line tool directly (here /p:Configuration selects the build configuration which can be different from the one specified in CMAKE_BUILD_TYPE, and /m enables a parallel build):
+```bash
+  msbuild "oneDNN.sln" /p:Configuration=Release /m
+```
+> Build the documentation
+```bash
+  cmake --build . --target DOC
+```
+> Install the library, headers, and documentation:
+```bash
+  cmake --build . --target INSTALL
+```
+Validate the Build
+> Run unit tests:
+```bash
+  ctest
+```
+
 ## Contributing
   Contributions are welcome! Feel free to submit bug reports, feature requests, or pull requests to help improve this project. 
 
