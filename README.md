@@ -111,7 +111,7 @@ Validate the Build
   ctest
 ```
 
-## Contributing
+## Contributing 🤝
   Contributions are welcome! Feel free to submit bug reports, feature requests, or pull requests to help improve this project. 
 
 ## 🛠️ Run Locally
@@ -148,6 +148,11 @@ Start the server
 # References For Datasets 📊📚
 
 - <h2>Celeb-DF-v2 dataset</h2> [Drive 🔗] (https://www.google.com/url?q=https://drive.google.com/open?id%3D1iLx76wsbi9itnkxSqz9BVBl4ZvnbIazj&sa=D&source=editors&ust=1711031793764133&usg=AOvVaw176zn3G8Ep0EDWpMV-rWnQ)
+
+# Model performance 🕝 ⚡
+<h2>This is the comparison of regular code and the same code utlized for an 20s , 1080 pixel Video. The Implementation of Intel® oneAPI Deep Neural Network Library accelerated the code by 2.8 - 3 times</h2>
+
+![Time (seconds)](https://github.com/SaiNivedh26/Team-Nooglers/assets/142657686/f2a14d7a-f47a-42a8-8708-17015cb90060)
 
 
 ## Authors
