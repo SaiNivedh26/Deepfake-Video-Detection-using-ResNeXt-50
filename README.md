@@ -2,9 +2,13 @@
 <center><h2>Project Title : Deep Fake Shield (DFS) </h2></center>
 
 ## Demo
-For the demonstration purpose, we're going to Import a fake video and check whether our application detects it
+For the demonstration purpose, we're going to Import a fake video and check whether our application detects it. This is deepfake video of ‘The Shining,’ starring Jim Carrey
+[Link 🔗] (https://www.marketwatch.com/story/watch-this-deepfake-and-you-may-never-trust-a-video-recording-ever-again-2019-07-09)
 
-https://github.com/SaiNivedh26/Team-Nooglers/assets/142657686/552961d7-8e3e-4f0c-8da7-3b2a38d40463
+We have obtained accelerated version of the model after using "'Intel® oneAPI Deep Neural Network Library'"
+
+https://github.com/SaiNivedh26/Team-Nooglers/assets/142657686/1fc386d2-a830-4168-ac6d-3d9c5b706981
+
 
 ## Overview
 This project aims to detect deepfake videos using advanced deep learning techniques, specifically leveraging the ResNeXt-50 model architecture. Deepfake videos, which are highly realistic but fabricated using AI algorithms, pose a significant threat to the authenticity of visual media content. By developing a robust framework for classifying videos as real or fake, we contribute to the ongoing efforts to combat the proliferation of misinformation and preserve the integrity of digital media platforms.
