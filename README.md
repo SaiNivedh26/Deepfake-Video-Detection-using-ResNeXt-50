@@ -1,7 +1,7 @@
 # Deepfake Video Detection using ResNeXt-50
 <center><h2>Project Title : Deep Fake Shield (DFS) </h2></center>
 
-## Demo
+## 🚀 Demo
 For the demonstration purpose, we're going to Import a fake video and check whether our application detects it. This is deepfake video of ‘The Shining,’ starring Jim Carrey
 [Link 🔗] (https://www.marketwatch.com/story/watch-this-deepfake-and-you-may-never-trust-a-video-recording-ever-again-2019-07-09)
 
@@ -13,8 +13,10 @@ https://github.com/SaiNivedh26/Team-Nooglers/assets/142657686/1fc386d2-a830-4168
 
 ## Overview
 This project aims to detect deepfake videos using advanced deep learning techniques, specifically leveraging the ResNeXt-50 model architecture. Deepfake videos, which are highly realistic but fabricated using AI algorithms, pose a significant threat to the authenticity of visual media content. By developing a robust framework for classifying videos as real or fake, we contribute to the ongoing efforts to combat the proliferation of misinformation and preserve the integrity of digital media platforms.
+![mindmap](https://github.com/SaiNivedh26/Team-Nooglers/assets/88413854/0a65a4d2-c3a3-4af5-a4ca-29c2919523d2)
 
-## Features
+
+## 🧐 Features
 
 - Utilizes the Celeb-DF-v2 dataset, comprising a 6000+ diverse collection of real and synthesized videos featuring celebrity personas.
 - Implements the ResNeXt-50 model architecture for video classification.
@@ -48,7 +50,7 @@ To run this project, you'll need the following libraries:
 ## Contributing
   Contributions are welcome! Feel free to submit bug reports, feature requests, or pull requests to help improve this project. 
 
-## Run Locally
+## 🛠️ Run Locally
 
 Clone the project
 
@@ -91,7 +93,7 @@ Start the server
 - [@Baranidharan S](https://github.com/thespectacular314)
 - [@Roshan T](https://github.com/Twinn-github09)
 
-## License
+## 🛡️License
 
 This project is licensed under the [MIT License](LICENSE).
 
