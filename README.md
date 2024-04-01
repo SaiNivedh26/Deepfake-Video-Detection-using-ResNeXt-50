@@ -32,7 +32,7 @@ By taking advantage of Intel's high-performance computing infrastructure and opt
 
 # Flow Diagram 🔄📊
 
-![flow](https://github.com/SaiNivedh26/Team-Nooglers/assets/142657686/f92a8b99-ff6f-4e03-877b-151ea067c5c7)
+![flow](https://github.com/SaiNivedh26/Team-Nooglers/assets/142657686/feec05e7-1a40-47c5-845c-ddf4da46967e)
 
 
 ## Necessary Libraries
