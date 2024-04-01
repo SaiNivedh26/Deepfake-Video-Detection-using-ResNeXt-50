@@ -33,6 +33,7 @@ By taking advantage of Intel's high-performance computing infrastructure and opt
 To run this project, you'll need the following libraries:
 
 - Python 3.x
+- oneDNN (Intel's Deep neural Network Library)
 - PyTorch
 - torchvision
 - timm
