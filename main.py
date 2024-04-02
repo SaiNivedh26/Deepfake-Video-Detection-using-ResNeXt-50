@@ -127,6 +127,7 @@ def classify_video(video):
     final_result = final_classification(predictions)
     return final_result
 
+#gradio Interface
 title = "Deepfake Detector"
 description = "Made by Team Nooglers as a part of Intel AI hackathon 😎"
 
