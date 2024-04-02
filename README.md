@@ -2,13 +2,19 @@
 <center><h2>Project Title : Deep Fake Shield (DFS) </h2></center>
 
 ## 🚀 Demo
-For the demonstration purpose, we're going to Import a fake video and check whether our application detects it. This is deepfake video of ‘The Shining,’ starring Jim Carrey
-[Link 🔗] (https://www.marketwatch.com/story/watch-this-deepfake-and-you-may-never-trust-a-video-recording-ever-again-2019-07-09)
+For the demonstration purpose, we're going to test a Real video and Deepfake video of former American President Mr. Doanld Trump and check whether our application detects it.
+[Source of the video 🔗](https://www.youtube.com/watch?v=QJk5RYjk8qM)
 
 
 We have obtained accelerated version of the model after using [```Intel® oneAPI Deep Neural Network Library```](https://www.intel.com/content/www/us/en/developer/tools/oneapi/onednn.html#gs.6pwnat)
 
-https://github.com/SaiNivedh26/Team-Nooglers/assets/142657686/1fc386d2-a830-4168-ac6d-3d9c5b706981
+
+
+
+
+https://github.com/SaiNivedh26/Team-Nooglers/assets/142657686/46c4ab4f-ee72-4280-be10-8d335e72cb12
+
+
 
 
 ## Overview
