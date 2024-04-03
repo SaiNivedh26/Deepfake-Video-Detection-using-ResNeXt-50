@@ -34,7 +34,7 @@ This project aims to detect deepfake videos using advanced deep learning techniq
 
 Leveraging the powerful resources provided by Intel Developer Cloud accelerated our development and deployment of the deepfake video detection model. We harnessed the computational capabilities of Intel's CPUs and XPUs to optimize critical components, such as video preprocessing, frame extraction, and model inference.
 
-By taking advantage of Intel's high-performance computing infrastructure and optimized software libraries (e.g., oneDNN, Intel Distribution of OpenVINO), we significantly reduced the time required for data preprocessing, model training, and inference. This allowed for faster experimentation, iterative improvements, and ultimately, a more efficient deployment of our deepfake detection solution.
+By taking advantage of Intel's high-performance computing infrastructure and optimized software libraries (e.g., Intel's one deep neural network library), we significantly reduced the time required for data preprocessing, model training, and inference. This allowed for faster experimentation, iterative improvements, and ultimately, a more efficient deployment of our deepfake detection solution.
 
 # Flow Diagram 🔄📊
 
